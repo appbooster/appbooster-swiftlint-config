@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'swiftlint-config'
-  s.version          = '1.0.0'
+  s.version          = '1.0.2'
   s.summary          = 'Swiftlint config for Appbooster projects'
 
 # This description is used to generate tags and improve search results.
