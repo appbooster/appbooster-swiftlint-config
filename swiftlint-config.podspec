@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'swiftlint-config'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'Swiftlint config for Appbooster projects'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'swiftlint-config/Files/.swiftlint.yml'
+  s.source_files = 'swiftlint-config/.swiftlint.yml'
   
   # s.resource_bundles = {
   #   'swiftlint-config' => ['swiftlint-config/Assets/*.png']
