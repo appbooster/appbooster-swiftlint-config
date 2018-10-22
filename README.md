@@ -7,7 +7,7 @@ Shared Swiftlint config of Appbooster organization
 1) Install config through CocoaPods:
 
 ```
-pod 'swiftlint-config', :git => 'git@github.com:appbooster/swiftlint-config.git', :tag => '<version_of_framework>'
+pod 'swiftlint-config', :git => 'git@github.com:appbooster/swiftlint-config.git', :tag => '<version_of_release>'
 ```
 
 2) Add to `Target > Build Phases` a new `Run Script Phase` with following block of code:
