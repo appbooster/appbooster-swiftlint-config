@@ -8,6 +8,13 @@ file_length:
 
 line_length: 120
 
+type_name:
+  max_length:
+    warning: 50
+    error: 60
+  min_length:
+    warning: 3
+
 variable_name:
   max_length:
     warning: 40
