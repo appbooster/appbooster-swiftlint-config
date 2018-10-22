@@ -1,0 +1,33 @@
+opt_in_rules:
+  - empty_count
+  - force_unwrapping
+
+file_length:
+  warning: 500
+  error: 1000
+
+line_length: 120
+
+variable_name:
+  max_length:
+    warning: 40
+    error: 60
+  min_length:
+    warning: 2
+
+nesting:
+  type_level:
+    warning: 5
+  statement_level:
+    warning: 10
+
+type_body_length:
+  warning: 300
+  error: 400
+
+excluded:
+  - Pods
+  - Carthage
+  - Frameworks
+
+reporter: "xcode"
