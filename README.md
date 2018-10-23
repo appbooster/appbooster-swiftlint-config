@@ -14,7 +14,7 @@ pod 'swiftlint-config', :git => 'git@github.com:appbooster/swiftlint-config.git'
 
 ```
 if which swiftlint >/dev/null; then
-swiftlint lint --config "${SRCROOT}/Pods/swiftlint-config/.swiftlint.yml"
+"${PODS_ROOT}/SwiftLint/swiftlint" lint --config "${PODS_ROOT}/swiftlint-config/.swiftlint.yml"
 else
 echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
 fi
