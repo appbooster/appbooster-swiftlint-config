@@ -13,8 +13,9 @@ pod 'swiftlint-config', :git => 'git@github.com:appbooster/swiftlint-config.git'
 2) Add to `Target > Build Phases` a new `Run Script Phase` with following block of code:
 
 ```
-if which swiftlint >/dev/null; then
-"${PODS_ROOT}/SwiftLint/swiftlint" lint --config "${PODS_ROOT}/swiftlint-config/.swiftlint.yml"
+swiftlint="${PODS_ROOT}/SwiftLint/swiftlint"
+if which $swiftlint >/dev/null; then
+$swiftlint lint --config "${PODS_ROOT}/swiftlint-config/.swiftlint.yml"
 else
 echo "warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint"
 fi
