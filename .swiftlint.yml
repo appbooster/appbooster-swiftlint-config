@@ -13,14 +13,14 @@ type_name:
     warning: 50
     error: 60
   min_length:
-    warning: 3
+    warning: 1
 
 variable_name:
   max_length:
-    warning: 40
+    warning: 50
     error: 60
   min_length:
-    warning: 2
+    warning: 1
 
 nesting:
   type_level:
