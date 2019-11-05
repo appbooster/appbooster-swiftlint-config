@@ -32,6 +32,9 @@ type_body_length:
   warning: 300
   error: 400
 
+cyclomatic_complexity:
+  ignores_case_statements: true
+
 excluded:
   - Pods
   - Carthage
