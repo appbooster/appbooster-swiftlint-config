@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'swiftlint-config'
-  s.version          = '1.0.10'
-  s.summary          = 'Swiftlint config for Appbooster projects'
+  s.name             = 'AppboosterSwiftLintConfig'
+  s.version          = '1.0.11'
+  s.summary          = 'SwiftLint config for Appbooster organization'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/appbooster/swiftlint-config'
+  s.homepage         = 'https://github.com/appbooster/appbooster-swiftlint-config'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Vladimir Vasilev' => 'fredformout@yandex.ru' }
-  s.source           = { :git => 'https://github.com/appbooster/swiftlint-config', :tag => s.version }
+  s.source           = { :git => 'https://github.com/appbooster/appbooster-swiftlint-config', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
